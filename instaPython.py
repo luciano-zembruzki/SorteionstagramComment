@@ -17,7 +17,7 @@ class Instabot:
 		# options.add_argument('--headless')
 		# options.add_argument('--no-sandbox')
 		# options.add_argument('--disable-dev-shm-usage')
-		browser = webdriver.Chrome('drivers/chromedriver',options=options)
+		browser = webdriver.Chrome('./chromedriver',options=options)
 
 		browser.get("http://instagram.com")
 
